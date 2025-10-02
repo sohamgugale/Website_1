@@ -1,0 +1,427 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Soham Gugale - Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lucide/0.263.1/umd/lucide.min.js"></script>
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <h1 class="nav-logo">Soham Gugale</h1>
+            
+            <div class="nav-menu" id="navMenu">
+                <button class="nav-item" data-section="hero">Home</button>
+                <button class="nav-item" data-section="about">About</button>
+                <button class="nav-item" data-section="education">Education</button>
+                <button class="nav-item" data-section="experience">Experience</button>
+                <button class="nav-item" data-section="projects">Projects</button>
+                <button class="nav-item" data-section="skills">Skills</button>
+                <button class="nav-item" data-section="contact">Contact</button>
+            </div>
+
+            <button class="mobile-menu-btn" id="mobileMenuBtn">
+                <i data-lucide="menu"></i>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero-section">
+        <div class="container text-center">
+            <h1 class="hero-title">Soham Gugale</h1>
+            <p class="hero-subtitle">Civil Engineering Graduate | Duke University Masters Student | Data Scientist | ML Engineer</p>
+            <p class="hero-description">
+                A results-driven Civil Engineering graduate currently pursuing Masters in Engineering (Computational Mechanics and Scientific Computing) at Duke University. 
+                Strong analytical and technical skills, proficient in data science, machine learning, and scalable system design.
+            </p>
+            
+            <div class="hero-links">
+                <a href="mailto:sohamgugale170@gmail.com" class="hero-link">
+                    <i data-lucide="mail"></i>
+                    <span>Email</span>
+                </a>
+                <a href="tel:+19196415666" class="hero-link">
+                    <i data-lucide="phone"></i>
+                    <span>Call</span>
+                </a>
+                <a href="https://github.com/sohamgugale" class="hero-link">
+                    <i data-lucide="github"></i>
+                    <span>GitHub</span>
+                </a>
+            </div>
+
+            <button class="cta-button" data-section="about">
+                <span>Learn More</span>
+                <i data-lucide="chevron-down"></i>
+            </button>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about-section">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-grid">
+                <div>
+                    <h3 class="about-heading">Professional Summary</h3>
+                    <p class="about-text">
+                        I am a Civil Engineering undergraduate from IIT Bombay currently pursuing my Masters in Engineering (Computational Mechanics and Scientific Computing) at Duke University. 
+                        My unique combination of engineering fundamentals, data science expertise, and computational skills allows me to approach 
+                        complex problems with both technical rigor and analytical insight. I specialize in machine learning, scalable system design, and data-driven decision making.
+                    </p>
+                    <div class="stats-grid">
+                        <div class="stat-card stat-blue">
+                            <div class="stat-number">3+</div>
+                            <div class="stat-label">Research Projects</div>
+                        </div>
+                        <div class="stat-card stat-green">
+                            <div class="stat-number">5+</div>
+                            <div class="stat-label">ML/AI Projects</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <i data-lucide="map-pin" class="icon-blue"></i>
+                        <span>Durham, North Carolina, United States</span>
+                    </div>
+                    <div class="contact-item">
+                        <i data-lucide="mail" class="icon-blue"></i>
+                        <span>sohamgugale170@gmail.com</span>
+                    </div>
+                    <div class="contact-item">
+                        <i data-lucide="phone" class="icon-blue"></i>
+                        <span>+1 (919)-641-5666</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education" class="education-section">
+        <div class="container">
+            <h2 class="section-title">Education</h2>
+            
+            <div class="education-card education-featured">
+                <div class="education-header">
+                    <div>
+                        <h3 class="education-title">Master of Engineering in Computational Mechanics and Scientific Computing</h3>
+                        <p class="education-school">Duke University</p>
+                        <p class="education-location">Durham, North Carolina, United States</p>
+                    </div>
+                    <div class="education-meta">
+                        <span class="date-badge">Aug 2024 - May 2026</span>
+                        <div class="current-badge">Current Student</div>
+                    </div>
+                </div>
+                <p class="education-description">
+                    Advanced graduate program focusing on computational mechanics, scientific computing, and numerical methods. 
+                    Coursework includes finite element methods, computational fluid dynamics, machine learning for engineering applications, 
+                    and high-performance computing.
+                </p>
+                <div class="coursework-box">
+                    <h4 class="coursework-title">Relevant Coursework:</h4>
+                    <div class="tag-container">
+                        <span class="tag tag-blue">Numerical Linear Algebra</span>
+                        <span class="tag tag-blue">Finite Element Methods</span>
+                        <span class="tag tag-blue">Machine Learning</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="education-card">
+                <div class="education-header">
+                    <div>
+                        <h3 class="education-title">Bachelor of Technology in Civil Engineering</h3>
+                        <p class="education-school">IIT - Indian Institute of Technology Bombay</p>
+                        <p class="education-location">Mumbai, Maharashtra, India</p>
+                    </div>
+                    <div class="education-meta">
+                        <span class="date-badge">Aug 2021 - May 2025</span>
+                    </div>
+                </div>
+                <p class="education-description">
+                    Completed rigorous courses in Calculus, Linear Algebra, Differential Equations, Probability and Statistics, 
+                    and Computer Programming. Also completed interdisciplinary courses in Economics, Sociology, Applied Geology, 
+                    and Electrical Engineering.
+                </p>
+                <div class="coursework-box coursework-green">
+                    <h4 class="coursework-title">Relevant Coursework:</h4>
+                    <div class="tag-container">
+                        <span class="tag tag-green">Probability and Statistics</span>
+                        <span class="tag tag-green">Data Structures</span>
+                        <span class="tag tag-green">Algorithms</span>
+                        <span class="tag tag-green">Business Fundamentals for Engineering</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="experience-section">
+        <div class="container">
+            <h2 class="section-title">Professional Experience</h2>
+            
+            <div class="experience-card exp-blue">
+                <div class="experience-header">
+                    <div>
+                        <h3 class="experience-title">Undergraduate Research Assistant</h3>
+                        <p class="experience-company">IIT Bombay</p>
+                        <p class="experience-location">Mumbai, India</p>
+                    </div>
+                    <span class="date-badge-dark">Aug 2024 - May 2025</span>
+                </div>
+                <ul class="experience-list">
+                    <li>Implemented high-performance backend components in C++ for low-latency inference in recommendation systems</li>
+                    <li>Conducted undergraduate thesis on scalable algorithm design, documenting methodology and outcomes</li>
+                </ul>
+            </div>
+
+            <div class="experience-card exp-green">
+                <div class="experience-header">
+                    <div>
+                        <h3 class="experience-title">Data Science Intern</h3>
+                        <p class="experience-company company-green">KultureHire</p>
+                        <p class="experience-location">Puducherry, India (Remote)</p>
+                    </div>
+                    <span class="date-badge-dark badge-green">May 2024 - Jul 2024</span>
+                </div>
+                <ul class="experience-list">
+                    <li>Created 3 Power BI dashboards (customer service, finance, orders) highlighting KPIs for business decision-making</li>
+                    <li>Analyzed Gen-Z career aspirations using advanced SQL (CTEs, joins), delivering actionable insights via data storytelling</li>
+                </ul>
+            </div>
+
+            <div class="experience-card exp-purple">
+                <div class="experience-header">
+                    <div>
+                        <h3 class="experience-title">Research Intern</h3>
+                        <p class="experience-company company-purple">IIT Bombay</p>
+                        <p class="experience-location">Mumbai, India</p>
+                    </div>
+                    <span class="date-badge-dark badge-purple">May 2023 - Jul 2023</span>
+                </div>
+                <ul class="experience-list">
+                    <li>Conducted thesis on Decarbonisation in the Construction Sector, focusing on lifecycle carbon assessment of infrastructure projects</li>
+                    <li>Developed simulation models to estimate carbon footprint reduction strategies across materials and processes</li>
+                    <li>Presented findings with data-driven policy recommendations for sustainable construction practices</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects-section">
+        <div class="container">
+            <h2 class="section-title">Featured Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <h3 class="project-title">Olympic Data Analysis Platform</h3>
+                    <div class="tag-container">
+                        <span class="tag tag-blue">Streamlit</span>
+                        <span class="tag tag-green">Pandas</span>
+                        <span class="tag tag-purple">Plotly</span>
+                        <span class="tag tag-orange">Seaborn</span>
+                    </div>
+                    <p class="project-description">
+                        Built Streamlit dashboard with Python analyzing 120+ years of Olympic data. 
+                        Designed heatmaps, line charts, and rankings for medal distribution and athlete trends.
+                    </p>
+                    <div class="project-metric">120+ Years of Data</div>
+                </div>
+
+                <div class="project-card">
+                    <h3 class="project-title">Stock Price Forecasting using Deep Learning</h3>
+                    <div class="tag-container">
+                        <span class="tag tag-red">LSTM</span>
+                        <span class="tag tag-orange">RNN</span>
+                        <span class="tag tag-yellow">Deep Learning</span>
+                    </div>
+                    <p class="project-description">
+                        Compared Classification, Regression, RNN, and LSTM on Apple stock data with 5+ indicators. 
+                        LSTM achieved lowest error, significantly outperforming other models.
+                    </p>
+                    <div class="project-metric metric-green">LSTM MSE: 0.0005</div>
+                    <div class="project-metric-small">RNN: 0.0013 | FFNN: 0.0048</div>
+                </div>
+
+                <div class="project-card">
+                    <h3 class="project-title">AI-Based Image Denoising</h3>
+                    <div class="tag-container">
+                        <span class="tag tag-indigo">DnCNN</span>
+                        <span class="tag tag-pink">Autoencoders</span>
+                        <span class="tag tag-teal">Computer Vision</span>
+                    </div>
+                    <p class="project-description">
+                        Implemented DnCNN and autoencoder models, improving PSNR from 20.53 to 31.19. 
+                        Added training optimizations improving inference speed.
+                    </p>
+                    <div class="project-metric">PSNR: 20.53 to 31.19</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills-section">
+        <div class="container">
+            <h2 class="section-title">Technical Skills</h2>
+            <div class="skills-grid">
+                <div class="skill-card skill-blue">
+                    <div class="skill-header">
+                        <i data-lucide="code"></i>
+                        <h3>Programming Languages</h3>
+                    </div>
+                    <div class="tag-container">
+                        <span class="tag tag-blue-dark">C++</span>
+                        <span class="tag tag-blue-dark">Python</span>
+                        <span class="tag tag-blue-dark">SQL</span>
+                        <span class="tag tag-blue-dark">CSS</span>
+                        <span class="tag tag-blue-dark">HTML</span>
+                        <span class="tag tag-blue-dark">Javascript</span>
+                    </div>
+                </div>
+
+                <div class="skill-card skill-green">
+                    <div class="skill-header">
+                        <i data-lucide="database"></i>
+                        <h3>ML & Data Science</h3>
+                    </div>
+                    <div class="tag-container">
+                        <span class="tag tag-green-dark">Regression</span>
+                        <span class="tag tag-green-dark">Statistical Modelling</span>
+                        <span class="tag tag-green-dark">Clustering</span>
+                        <span class="tag tag-green-dark">Deep Learning</span>
+                        <span class="tag tag-green-dark">CNNs</span>
+                        <span class="tag tag-green-dark">NLP</span>
+                        <span class="tag tag-green-dark">LLMs</span>
+                    </div>
+                </div>
+
+                <div class="skill-card skill-purple">
+                    <div class="skill-header">
+                        <i data-lucide="wrench"></i>
+                        <h3>Libraries & Frameworks</h3>
+                    </div>
+                    <div class="tag-container">
+                        <span class="tag tag-purple-dark">PyTorch</span>
+                        <span class="tag tag-purple-dark">OpenCV</span>
+                        <span class="tag tag-purple-dark">NumPy</span>
+                        <span class="tag tag-purple-dark">Pandas</span>
+                        <span class="tag tag-purple-dark">Matplotlib</span>
+                        <span class="tag tag-purple-dark">Scikit-learn</span>
+                        <span class="tag tag-purple-dark">XGBoost</span>
+                        <span class="tag tag-purple-dark">LightGBM</span>
+                    </div>
+                </div>
+
+                <div class="skill-card skill-orange">
+                    <div class="skill-header">
+                        <i data-lucide="book-open"></i>
+                        <h3>Tools & Software</h3>
+                    </div>
+                    <div class="tag-container">
+                        <span class="tag tag-orange-dark">VSCode</span>
+                        <span class="tag tag-orange-dark">Excel</span>
+                        <span class="tag tag-orange-dark">Jupyter Notebook</span>
+                        <span class="tag tag-orange-dark">Git</span>
+                        <span class="tag tag-orange-dark">AutoCAD</span>
+                        <span class="tag tag-orange-dark">Power BI</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Certifications Section -->
+    <section id="certifications" class="certifications-section">
+        <div class="container">
+            <h2 class="section-title">Certifications & Achievements</h2>
+            <div class="certifications-grid">
+                <div class="certification-card">
+                    <i data-lucide="award"></i>
+                    <p>SQL Bootcamp - MYSQL for Beginner to Advanced (Udemy)</p>
+                </div>
+                <div class="certification-card">
+                    <i data-lucide="award"></i>
+                    <p>Microsoft Excel: Beginner to Advanced (Udemy)</p>
+                </div>
+                <div class="certification-card">
+                    <i data-lucide="award"></i>
+                    <p>Data Science with Python (Simplilearn)</p>
+                </div>
+                <div class="certification-card">
+                    <i data-lucide="award"></i>
+                    <p>Autodesk Revit: Beginner to Advanced (Udemy)</p>
+                </div>
+                <div class="certification-card">
+                    <i data-lucide="award"></i>
+                    <p>Top 20 Teams - 24-hour Hackathon</p>
+                </div>
+                <div class="certification-card">
+                    <i data-lucide="award"></i>
+                    <p>Bronze Medal - IIT Bombay Cricket Championship</p>
+                </div>
+                <div class="certification-card">
+                    <i data-lucide="award"></i>
+                    <p>Event Coordinator - Techfest 2022 (Largest Techfest in Asia)</p>
+                </div>
+                <div class="certification-card">
+                    <i data-lucide="award"></i>
+                    <p>State Level English Marathon Certificate of Merit</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section">
+        <div class="container text-center">
+            <h2 class="section-title-white">Let's Connect</h2>
+            <p class="contact-subtitle">
+                I'm always interested in discussing new opportunities and collaborating on exciting projects.
+            </p>
+            
+            <div class="contact-grid">
+                <a href="mailto:sohamgugale170@gmail.com" class="contact-card">
+                    <i data-lucide="mail"></i>
+                    <h3>Email</h3>
+                    <p>sohamgugale170@gmail.com</p>
+                </a>
+                
+                <a href="tel:+19196415666" class="contact-card">
+                    <i data-lucide="phone"></i>
+                    <h3>Phone</h3>
+                    <p>+1 (919)-641-5666</p>
+                </a>
+                
+                <a href="https://github.com/sohamgugale" class="contact-card">
+                    <i data-lucide="github"></i>
+                    <h3>GitHub</h3>
+                    <p>View My Projects</p>
+                </a>
+            </div>
+            
+            <div class="contact-location">
+                <i data-lucide="map-pin"></i>
+                <span>Durham, North Carolina, United States</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container text-center">
+            <p>© 2025 Soham Gugale. Built with HTML, CSS, and JavaScript.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
